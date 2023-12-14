@@ -11,8 +11,7 @@ Active_data = cell(18, 3); % No time limit/ easy computation
 Control_data = cell(18, 3); % Time limited (3 sec)/ easy computation
 Passive_data = cell(18, 3); % Time limited (3 sec)/ hard computation
 
-% note: 11_1、14_2 lacked
-% とりあえず、11, 14をはずした18人のデータを使用することとする
+% note: 11, 14 ommited
 
 %%
 count = 1;
