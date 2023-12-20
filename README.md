@@ -4,7 +4,14 @@
 
 We listed sample raw data for IIT computation in MATLAB 2020b.
 
-Before running our program, please import the practical PHI toolbox \usr(https://figshare.com/articles/code/phi_toolbox_zip/3203326).
+Before running our program, please import the practical PHI toolbox (https://figshare.com/articles/code/phi_toolbox_zip/3203326).
 
 Run Main_Complex_Computation (MIP_computation).
+
+## The analysis in our paper
+
+We listed all used IIT computation datasets and the subjective scores.
+
+Run .mxf files and you'll get some figures we used in the paper.
+
 
