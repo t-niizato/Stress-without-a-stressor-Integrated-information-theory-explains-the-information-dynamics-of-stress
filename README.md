@@ -10,8 +10,10 @@ Run Main_Complex_Computation (MIP_computation).
 
 ## The analysis in our paper
 
-We listed all used IIT computation datasets and the subjective scores.
+We listed all used IIT computation datasets and the subjective scores in Figure_results file.
 
 Run .mxf files and you'll get some figures we used in the paper.
+
+Please reread some words (Active, Control, Passive condition) to the new words (Moderate, Easy, Difficult condition).
 
 
