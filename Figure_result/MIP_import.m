@@ -1,12 +1,11 @@
 %clearvars;
 
 %% data read
-file_name = what("MIP_PHI/Tmax_2000_tau_50/"). path;
+interval = 2000;
+file_name = what("MIP_PHI/Tmax_" + num2str(interval) + "_tau_50/"). path;
 type_name = ["/Moderate", "/Difficult", "/Easy"];
 data_name = ["/MIP_PHI/MIP_PHI_",  "/MIP_cut/MIP_cut_"];
 tail_name = ["_rest1.csv", "_rest2.csv", "_task.csv"];
-% set interval = T_max
-interval = 2000;
 
 
 %% set data
@@ -19,7 +18,7 @@ Active_MIP_cut = cell(18, 3); % No time limit/ easy computation
 Control_MIP_cut = cell(18, 3); % Time limited (3 sec)/ easy computation
 Passive_MIP_cut = cell(18, 3); % Time limited (3 sec)/ hard computation
 
-data_index = 1;
+data_index = 2;
 
 for ind = 1:18
     for j = 1:3

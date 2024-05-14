@@ -1,9 +1,9 @@
 %% data read
-file_name = what("MainComplex_PHI/Tmax_2000/"). path;
+interval = 2000;
+file_name = what("MainComplex_PHI/Tmax_" + num2str(interval)+ "/"). path;
 type_name = ["/Moderate", "/Difficult", "/Easy"];
 data_name = ["/PHI/PHI_", "/SumPHI/SumPHI_","/CompNum/CompNum_", "/CompType/CompType_"];
 tail_name = ["_rest1.csv", "_rest2.csv", "_task.csv"];
-interval = 2000;
 
 data_index = 4;
 
