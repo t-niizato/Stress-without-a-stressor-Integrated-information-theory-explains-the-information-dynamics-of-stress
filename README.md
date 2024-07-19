@@ -16,4 +16,7 @@ Run .mlx files and you'll get some figures we used in the paper.
 
 Please reread some words (Active, Control, Passive condition) to the new words (Moderate, Easy, Difficult condition).
 
+## Raw data
+
+All raw data are listed on "release" file.
 
