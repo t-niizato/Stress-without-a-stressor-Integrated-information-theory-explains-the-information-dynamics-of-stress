@@ -1,4 +1,4 @@
-# Stress-without-a-stressor-Integrated-information-theory-explains-the-information-dynamics-of-stress
+# Toward a stressor-free stress estimation: Integrated information theory explains the information dynamics of stress
 
 ## Computing IIT values from raw data
 
